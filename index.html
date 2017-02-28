@@ -49,7 +49,38 @@
         </header>
 
         <div id="main-content" class="container">
-           <iframe width="100%" height="520" frameborder="0" src="https://acadhe.carto.com/builder/7241df72-fc92-11e6-9308-0e8c56e2ffdb/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          <iframe width="100%" height="520" frameborder="0" src="https://acadhe.carto.com/builder/33285114-fd6d-11e6-8daa-0ecd1babdde5/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+        <section id="rooms" class="frame container">
+            <h4>Charts</h4>
+            <div class="row"> 
+                <div class="frame2 col-md-6 col-sm-12 col-xs-12">
+                    <h2>Number of surveys per day </h2>
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col15%2C+count()+from+16DK_JI1sW-bJguxPaEFnNfOU_tEjEnmdcgy24W4R+group+by+col15+order+by+count()+asc+limit+100&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=500&amp;height=300"></iframe>
+                </div>
+                <div class="frame2 col-md-6 col-sm-12 col-xs-12">
+                     <h2>Number of surveys per User</h2>
+                     <iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col22%2C+count()+from+16DK_JI1sW-bJguxPaEFnNfOU_tEjEnmdcgy24W4R+group+by+col22+order+by+count()+desc+limit+50&amp;viz=GVIZ&amp;t=BAR&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D&amp;gco_vAxes=%5B%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%7D%2C%7B%22useFormatFromData%22%3Atrue%7D%5D&amp;gco_legend=right&amp;gco_titleTextStyle=%7B%22color%22%3A%22%23ff9900%22%2C+%22fontSize%22%3A12%2C+%22bold%22%3Atrue%7D&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22%23e69138%22%7D%7D&amp;width=500&amp;height=300"></iframe>
+                    
+
+                </div>
+                <div class="frame2 col-md-6 col-sm-12 col-xs-12">
+                     <h2>Ages</h2>
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col40%2C+count()+from+16DK_JI1sW-bJguxPaEFnNfOU_tEjEnmdcgy24W4R+where+col40+%3E%3D+1+and+col40+%3C%3D+99+group+by+col40+order+by+count()+asc+limit+100&amp;viz=GVIZ&amp;t=BAR&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=500&amp;height=300"></iframe>
+                </div>
+
+                <div class="frame2 col-md-6 col-sm-12 col-xs-12">
+                    <h2>Discapacity: Difficult seeing (even wearing glasses)</h2>
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col82%2C+count()+from+16DK_JI1sW-bJguxPaEFnNfOU_tEjEnmdcgy24W4R+where+col82+in+(&#39;%E0%A6%85%E0%A6%A8%E0%A7%87%E0%A6%95+%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF+%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE+%E0%A6%B9%E0%A7%9F+a+lot+of+difficulty&#39;%2C+&#39;%E0%A6%85%E0%A6%B2%E0%A7%8D%E0%A6%AA+%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE+%E0%A6%B9%E0%A7%9F+some+difficulty&#39;%2C+&#39;%E0%A6%8F%E0%A6%95%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%87+%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87+%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%BF+%E0%A6%A8%E0%A6%BE+Cannot+do+at+all&#39;%2C+&#39;%E0%A6%95%E0%A7%8B%E0%A6%A8+%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE+%E0%A6%A8%E0%A6%BE%E0%A6%87+no+difficulty&#39;)+group+by+col82+order+by+count()+asc+limit+10&amp;viz=GVIZ&amp;t=PIE&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=500&amp;height=300"></iframe>
+                </div>
+            <div>
+        </section> 
+
+          <div class= "frame">
+            <h4>Updated database (26-february-17) </h4>
+            <iframe width="500" height="300" scrolling="yes" frameborder="no" src="https://fusiontables.google.com/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col0%2C+col1%2C+col15%2C+col19%2C+col22%2C+col23%2C+col24%2C+col25%2C+col26%2C+col27%2C+col28%2C+col29%2C+col30%2C+col31%2C+col32%2C+col33%2C+col34%2C+col35%2C+col36%2C+col37%2C+col38%2C+col39%2C+col40%2C+col41%2C+col42%2C+col43%2C+col44%2C+col45%2C+col46%2C+col47%2C+col48%2C+col49%2C+col50%2C+col51%2C+col52%2C+col53%2C+col54%2C+col55%2C+col56%2C+col57%2C+col58%2C+col59%2C+col60%2C+col61%2C+col62%2C+col63%2C+col64%2C+col65%2C+col66%2C+col67%2C+col68%2C+col69%2C+col70%2C+col71%2C+col72%2C+col73%2C+col74%2C+col75%2C+col76%2C+col77%2C+col78%2C+col79%2C+col80%2C+col81%2C+col82%2C+col83%2C+col84%2C+col85%2C+col86%2C+col87%2C+col88%2C+col89+from+16DK_JI1sW-bJguxPaEFnNfOU_tEjEnmdcgy24W4R&amp;containerId=googft-gviz-canvas"></iframe>
+          </div>
+
         </div>
 
         <script src="js/jquery-2.1.4.min.js"></script>
